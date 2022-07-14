@@ -10,7 +10,7 @@ body {
   position: fixed;
   flex-direction: row;
   align-items: baseline;
-  background-image: url(stick-kids.png);
+  background-image: url(../images/stick-kids.png);
   background-size: 100% 70%;
   background-repeat: no-repeat;
   height: 200px;
@@ -91,9 +91,10 @@ input {
   min-width: 10%;
 }
 .body-gallery {
-  background-image: url(nature-3044755__480.jpg);
+  background-image: url(../images/nature-3044755__480.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px 20%;
 }
 
 @media all and (max-width: 600px) {
@@ -105,5 +106,14 @@ input {
   .margin-top {
     margin-top: 105px;
     margin-bottom: -24px;
+  }
+
+  .img-table {
+    width: 100px;
+    height: 100px;
+  }
+  .body-gallery {
+    margin: 0% 10% 0% 0%;
+    font-size: smaller;
   }
 }
